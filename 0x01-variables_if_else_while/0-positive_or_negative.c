@@ -2,6 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
+/**
+ * main - figure out wether a number is positive or negative
+ * Return: 0
+ */
+
+
+
 /* betty styles doc for function main goes there */
 int main(void)
 {
