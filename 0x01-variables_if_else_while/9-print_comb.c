@@ -11,15 +11,15 @@
 int main(void)
 {
 
-	int n;
+	int nu;
 
-	for (n = '0'; n <= '9'; n++)
+	for (nu = '0'; nu <= '9'; nu++)
 	{
-		putchar(n);
-		if (n < '9')
+		putchar(nu);
+		if (nu < '9')
 		{
 			putchar(',');
-			putchar(" ");
+			putchar(' ');
 		}
 
 	}
