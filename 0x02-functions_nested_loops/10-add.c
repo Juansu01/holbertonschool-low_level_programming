@@ -15,5 +15,5 @@ int add(int a, int b)
 	sum = a + b;
 
 	printf("%d\n", sum);
-	return 0;
+	return (0);
 }
