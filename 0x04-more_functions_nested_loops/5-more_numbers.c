@@ -26,15 +26,15 @@ void more_numbers(void)
 			if (a > 9)
 			{
 				fd = (a / 10);
-				putchar(fd + '0');
+				_putchar(fd + '0');
 			}
 			ld = (a % 10);
-			putchar(ld + '0');
+			_putchar(ld + '0');
 
 
 		}
 
-		putchar('\n');
+		_putchar('\n');
 
 	}
 
