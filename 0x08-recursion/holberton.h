@@ -21,4 +21,6 @@ int is_prime_number(int n);
 
 int is_palindrome(char *s);
 
+int find_sqrt(int n, int a);
+
 #endif /* HOLBERTON_H */
