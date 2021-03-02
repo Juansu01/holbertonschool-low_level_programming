@@ -31,7 +31,7 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
-	for (j = 0; j < i ; j++) /*do this as long as j is less than i*/
+	for (j = 0; j < i; j++) /*do this as long as j is less than i*/
 	{
 		arr[j] = str[j]; /*new array gets values of str in j position*/
 	}
