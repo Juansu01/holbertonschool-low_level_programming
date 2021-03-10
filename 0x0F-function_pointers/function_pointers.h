@@ -14,4 +14,4 @@ int int_index(int *array, int size, int (*cmp)(int));
 
 int (*get_op_func(char *s))(int, int);
 
-#endif /* FUNCTION_POINTERS */ 
+#endif /* FUNCTION_POINTERS */
