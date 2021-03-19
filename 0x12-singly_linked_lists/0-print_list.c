@@ -10,7 +10,7 @@
 
 size_t print_list(const list_t *h)
 {
-	int count;
+	unsigned int count;
 
 	count = 0;
 
