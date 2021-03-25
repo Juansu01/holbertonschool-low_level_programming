@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 
 /**
@@ -13,6 +14,7 @@ unsigned int binary_to_uint(const char *b)
 	unsigned int val, k, len;
 	int i;
 
+	val = 0;
 	k = 1;
 
 	len = strlen(b);
