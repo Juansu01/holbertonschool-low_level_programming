@@ -21,10 +21,10 @@ int _count(char *s)
 }
 
 /**
- * function - desc
- *
- *
- *
+ * create_file - creates a text file
+ * @filename: name of the file that will be created.
+ * @text_content: text to be written in the file.
+ * Return: Returns -1 if fails, 1 if succeeds.
  */
 
 int create_file(const char *filename, char *text_content)
@@ -47,7 +47,7 @@ int create_file(const char *filename, char *text_content)
 	wr = write(cr, text_content, _count(text_content));
 
 	if (wr == -1)
-			return (-1);
+		return (-1);
 
 	close(cr);
 
