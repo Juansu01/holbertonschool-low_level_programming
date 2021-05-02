@@ -8,7 +8,7 @@
 
 size_t print_dlistint(const dlistint_t *h)
 {
-	int counter = 0;
+	size_t node_number = 0;
 
 	if (h == NULL)
 	{
@@ -19,8 +19,8 @@ size_t print_dlistint(const dlistint_t *h)
 	{
 		printf("%d\n", h->n);
 		h = h->next;
-		counter++;
+		node_number++;
 	}
 
-	return (counter);
+	return (node_number);
 }
