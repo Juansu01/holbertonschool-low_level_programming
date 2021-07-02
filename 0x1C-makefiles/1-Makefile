@@ -1,0 +1,10 @@
+define CC
+gcc
+endef
+
+define SRC
+main.c holberton.c -o holberton
+endef
+
+all:
+	$(CC) $(SRC)
