@@ -1,10 +1,4 @@
-define CC
-gcc
-endef
-
-define SRC
-main.c holberton.c
-endef
-
+CC = gcc
+SRC = main.c holberton.c
 all:
 	$(CC) $(SRC) -o holberton
