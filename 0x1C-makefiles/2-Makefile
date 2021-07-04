@@ -1,14 +1,6 @@
-define CC
-gcc
-endef
-define NAME
-holberton
-endef
-define SRC
-main.c holberton.c 
-endef
-define OBJ
-$(SRC:%.c=%.o)
-endef
+CC = gcc
+SRC = main.c holberton.c
+NAME = holberton
+OBJ = $(SRC:%.c=%.o)
 all : $(OBJ)
 	$(CC) $(OBJ) -o $(NAME) 
