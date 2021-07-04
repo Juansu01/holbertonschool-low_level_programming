@@ -3,8 +3,8 @@ gcc
 endef
 
 define SRC
-main.c holberton.c -o holberton
+main.c holberton.c
 endef
 
 all:
-	$(CC) $(SRC)
+	$(CC) $(SRC) -o holberton
